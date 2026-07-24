@@ -64,12 +64,6 @@ See `docs/POS.png` for the full class diagram.
 
 > Data is held in memory for the length of a run and reloaded from CSV each time the app starts — edits made through the back office aren't persisted back to disk yet (see below).
 
-## Possible Future Improvements
-
-- Persist edits back to CSV (or move to a real database) instead of in-memory-only state
-- Proper per-manager accounts instead of a single shared password
-- Automated unit tests around tax, pricing, and payment calculations
-
 ## Design Documentation
 
 The original UML design was created in Visual Paradigm. The `.vpp` file in `docs/` can be opened with [Visual Paradigm](https://www.visual-paradigm.com/) to view or edit the model.
